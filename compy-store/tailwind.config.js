@@ -4,5 +4,8 @@ export default {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes: ["winter", "dracula"],
+  },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
